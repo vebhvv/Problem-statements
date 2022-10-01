@@ -19,7 +19,8 @@ Problem statements usually given in college for programming practice.
 <hr>
 
 - C Solutions : click [here](https://github.com/vebhvv/Problem-statements/tree/main/C%20Solutions).
-- Python Solutions: click [here](https://github.com/vebhvv/Problem-statements/tree/main/Python%20Solutions)
+- C++ Solutions: click [here](https://github.com/Mr-vabs/Problem-statements/tree/main/C%2B%2B%20Solutions).
+- Python Solutions: click [here](https://github.com/vebhvv/Problem-statements/tree/main/Python%20Solutions).
 
 <hr>
 
