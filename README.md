@@ -33,7 +33,7 @@ Problem statements usually given in college for programming practice.
 
 <hr>
 
-- Star and fork this repository by clicking [here](https://github.com/Mr-vabs/apps/fork).
+- Star and fork this repository by clicking [here](https://github.com/vebhvv/Problem-statements/fork).
 
 - You can add your code (solution) within respected folder, however if you want to add any program in any language which is not listed then you will have to create a folder with the language name and then add in that folder.
 
