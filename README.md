@@ -10,7 +10,16 @@ Problem statements usually given in college for programming practice.
 
 <hr>
 
-- problem statements : click [here](https://github.com/vebhvv/Problem-statements/).
+- problem statements : click [here](https://vebhvv.github.io/Problem-statements/).
+
+<hr>
+
+## Solutions
+
+<hr>
+
+- C Solutions : click [here](https://github.com/vebhvv/Problem-statements/tree/main/C%20Solutions).
+- Python Solutions: click [here](https://github.com/vebhvv/Problem-statements/tree/main/Python%20Solutions)
 
 <hr>
 
