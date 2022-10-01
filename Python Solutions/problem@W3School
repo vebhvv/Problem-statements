@@ -1,0 +1,240 @@
+# PROBLEM STATMENT
+# https://www.w3resource.com/python-exercises/class-exercises/
+
+
+# n=int(input("Enter no of Lines"))
+# for x in range(1,n+1):
+#     for i in range(1, x+1):
+#         print(i, end=" ")
+#     print()
+
+
+# oop
+# class PlayerCharacter:
+#     def __init__(self,name, age):
+#         self.name = name
+#         self.age = age
+
+
+# obj1 = PlayerCharacter('Laraib',20)
+
+# print(obj1.name)
+# print(obj1.age)
+
+
+# class Company:
+#     def __init__(self, name):
+#         self.name = name
+#         year= 2022
+#         expiry= 2050
+
+# info = Company('Google')
+# # print(Google.name)
+
+
+# x = y =[2,4,6]
+# y[0] = 5
+
+# print(x)
+
+
+# import array
+
+# for name in array.__dict__:
+#     print(name)
+
+
+# def student(stu_id, stu_class, stu_roll):
+#     return f'Student ID:{stu_id}\nStudent Class :{ stu_class}\nStudent Roll Number :{ stu_roll}'
+
+# print(student(2333,'Section B', 200))
+
+# class Student:
+#     def __init__(self, stu_name, stu_roll, stu_class):
+#         self.stu_name = stu_name
+#         self.stu_roll = stu_roll
+#         self.stu_class = stu_class
+
+# obj = Student("Laraib", 23 , 'Graduate')
+
+# print(obj.__dict__)
+
+
+# import builtins
+# help(builtins.abs)
+# print(builtins.abs(-155))
+# dir(builtins)
+
+# PROBLEM 5
+
+# def student(name, roll, standard):
+#     return f'stu_name: {name}\nstu_roll: {roll}\nstandard: {standard}'
+
+
+# print(student('Laraib', 34, 12))
+
+
+# PROBLEM 6
+
+# stu_id= str(input("Enter Student ID\n"))
+# stu_name= str(input("Enter Student Name\n"))
+# stu_class= str(input("Enter Student Class\n"))
+
+# def student_data(stu_id, **kwargs):
+#     if 'stu_name' and 'stu_class' in kwargs:
+#         print(f"Student Name :{kwargs['stu_name']}\nSudent Class: {kwargs['stu_class']}")
+#     else:
+#         print(f'Student ID: {stu_id}')
+
+
+# student_data(stu_id ='LK177', stu_name = "Larai45b Khan", stu_class= "B2")
+# student_data(stu_id='LK177', stu_name="Ruman Khan")
+# student_data(stu_id,stu_class, stu_name)
+
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+# PROBLEM 7
+
+
+
+
+# class Student:
+#     pass
+
+# print(type(Student))
+# print(Student.__dict__)
+# print() 
+# print(Student.__module__)
+
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+# # PROBLEM 8
+# class Student:
+#     pass
+
+# class Marks:
+#     pass
+
+# stu = Student()
+# mark = Marks()
+# print(isinstance(stu, Student))
+# print(isinstance(mark, Student))
+# print(isinstance(mark, Marks))
+# print(isinstance(mark, Student))
+# print("\nchecked whether the said class are subclasses of the builtin object class or not.")
+# print(issubclass(Student, object))
+# print(issubclass(Marks, object))
+
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+# # PROBLEM 9
+# class Student:
+#     def __init__(self,student_name, marks):
+#         self.student_name = student_name
+#         self.marks = marks
+
+
+# obj = Student('laraib', 98)
+# print(f'Student name:{obj.student_name} and marks {obj.marks}')
+# obj.student_name = 'khan'
+# obj.marks = 109
+# print(f'Modified Student name:{obj.student_name} and marks {obj.marks}')
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+# PROBLEM 10
+# Write a Python class named Student with two attributes student_id, student_name. 
+# Add a new attribute student_class and display the entire attribute and 
+# their values of the said class.
+#  Now remove the student_name attribute and
+#   display the entire attribute with values.
+
+
+# class Student:
+#     student_id = '34j'
+#     student_name = 'Laraib'
+
+# print("Orginal Attributes & values...........................")
+
+# for attr, value in Student.__dict__.items():
+#     if not attr.startswith('_'):
+#         print(f'{attr} : {value}')
+
+# print("After adding some attributes..............................")
+
+# Student.student_class = 'L9'
+
+# for attr, value in Student.__dict__.items():
+#     if not attr.startswith('_'):
+#         print(f'{attr} : {value}')
+
+# del Student.student_name
+# print("Printing after deleting the name attribute.....................")
+# for attr, value in Student.__dict__.items():
+#     if not attr.startswith('_'):
+#         print(f'{attr} : {value}')
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# PROBLEM 11
+
+
+# class Student:
+#     student_id = '44'
+#     student_name = 'laraib'
+
+#     def display():
+#         for attr, value in Student.__dict__.items():
+#             if not attr.startswith('_'):
+#                 print(f'{attr} : {value}')
+
+
+# Student.student_class = '5B'
+
+# # stu = Student()
+# Student.display()
+
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# PROBLEM 12
+
+# class Student:
+#     pass
+
+# student1 = Student()
+# student2 = Student()
+
+# student1.student_id ='V12'
+# student1.student_name ='Ernesto Mendez'
+# student2.student_id ='V12'
+# student2.marks_language ='89'
+# student2.marks_science ='09'
+# student2.marks_mathematics ='59'
+
+# students = [student1, student2]
+# for student in students:
+#     print()
+#     for attr, value in student.__dict__.items():
+#         print(f'{attr} -> {value}')
+
+
+# ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# PROBLEM 12
+
+print(1 // 900)
