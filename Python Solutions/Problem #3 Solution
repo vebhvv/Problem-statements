@@ -1,0 +1,20 @@
+# Problem #3
+print("Select to Convert ")
+print("1.Steps To Kilometer")
+print("2.Kilometer To Steps ")
+choice= int(input())
+if choice == 1:
+ #steps= 1
+ steps= int(input("Enter no of steps: "))
+ one_step = 0.0008
+ total = steps * one_step
+ print(f"{steps} is equals to {total} Kilometers")
+ 
+elif choice == 2:
+    km= float(input("Enter no of kilometers: "))
+    one_km = 1250
+    total = km * one_km
+    print(f"{km} is equals to {int(total)} steps")
+    
+else:
+    print("Accept 1 or 2 only")
