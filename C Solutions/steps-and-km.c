@@ -32,4 +32,5 @@ int main ()
 				printf("Please choose from given option\n");
 			}
 	}
+      return 0;
 }
